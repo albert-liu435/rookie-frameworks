@@ -4,32 +4,33 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+
   <parent>
-    <artifactId>rookie-frameworks</artifactId>
+    <artifactId>rookie-jdk-framework</artifactId>
     <groupId>com.rookie.bigdata</groupId>
     <version>1.0.release</version>
   </parent>
 
   <groupId>com.rookie.bigdata</groupId>
-  <artifactId>rookie-netty-framework</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>rookie-jdk8</artifactId>
   <version>1.0.release</version>
 
-  <name>rookie-netty-framework</name>
+  <name>rookie-jdk8</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <java.version>17</java.version>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 

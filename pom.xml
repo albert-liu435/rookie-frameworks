@@ -10,6 +10,7 @@
     <version>1.0.release</version>
     <modules>
         <module>rookie-netty-framework</module>
+        <module>rookie-jdk-framework</module>
     </modules>
 
     <properties>
