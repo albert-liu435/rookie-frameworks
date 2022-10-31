@@ -3,22 +3,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <modules>
-    <module>rookie-netty-learn</module>
-  </modules>
+
 
   <parent>
-    <artifactId>rookie-frameworks</artifactId>
+    <artifactId>rookie-netty-framework</artifactId>
     <groupId>com.rookie.bigdata</groupId>
     <version>1.0.release</version>
   </parent>
 
   <groupId>com.rookie.bigdata</groupId>
-  <artifactId>rookie-netty-framework</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>rookie-netty-learn</artifactId>
   <version>1.0.release</version>
 
-  <name>rookie-netty-framework</name>
+  <name>rookie-netty-learn</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -30,14 +27,25 @@
   </properties>
 
   <dependencies>
-<!--    <dependency>-->
-<!--      <groupId>org.springframework</groupId>-->
-<!--      <artifactId>spring-context</artifactId>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-all</artifactId>
-     <!-- <version>${netty.all.version}</version>-->
+    </dependency>
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>2.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>3.6.1</version>
     </dependency>
   </dependencies>
 
