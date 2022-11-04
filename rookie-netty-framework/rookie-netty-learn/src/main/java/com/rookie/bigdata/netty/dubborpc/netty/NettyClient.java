@@ -28,6 +28,8 @@ public class NettyClient {
 
     public Object getBean(final Class<?> serivceClass, final String providerName) {
 
+
+
         return Proxy.newProxyInstance(Thread.currentThread().getContextClassLoader(),
                 new Class<?>[]{serivceClass}, (proxy, method, args) -> {
 
