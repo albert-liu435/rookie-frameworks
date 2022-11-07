@@ -25,6 +25,7 @@
         <module>rookie-jdk8</module>
         <module>rookie-nio</module>
         <module>rookie-juc</module>
+        <module>rookie-design-pattern</module>
     </modules>
 
     <!--  <properties>-->
