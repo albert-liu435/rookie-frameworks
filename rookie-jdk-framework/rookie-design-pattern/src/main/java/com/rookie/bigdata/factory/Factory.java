@@ -4,14 +4,14 @@ import java.util.Calendar;
 
 /**
  * @Classname Factory
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 22:09
  * @Version 1.0
  */
 public class Factory {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         // getInstance 是 Calendar 静态方法
         Calendar cal = Calendar.getInstance();
         // 注意月份下标从0开始，所以取月份要+1

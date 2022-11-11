@@ -2,7 +2,7 @@ package com.rookie.bigdata.sync;
 
 /**
  * @Classname SaleTicket
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/5 14:47
  * @Version 1.0

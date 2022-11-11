@@ -2,7 +2,7 @@ package com.rookie.bigdata.adapter.interfaceadapter;
 
 /**
  * @Classname AbsAdapter
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/8 22:11
  * @Version 1.0

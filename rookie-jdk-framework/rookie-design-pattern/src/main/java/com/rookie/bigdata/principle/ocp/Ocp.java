@@ -2,7 +2,7 @@ package com.rookie.bigdata.principle.ocp;
 
 /**
  * @Classname Ocp
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 20:19
  * @Version 1.0

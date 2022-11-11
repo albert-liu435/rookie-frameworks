@@ -4,7 +4,7 @@ import com.rookie.bigdata.singleton.type1.Singleton;
 
 /**
  * @Classname SingletonTest02
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 21:15
  * @Version 1.0

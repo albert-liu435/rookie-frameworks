@@ -2,7 +2,7 @@ package com.rookie.bigdata.builder;
 
 /**
  * @Classname AbstractHouse
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 22:58
  * @Version 1.0

@@ -2,7 +2,7 @@ package com.rookie.bigdata.principle.ocp.improve;
 
 /**
  * @Classname Ocp
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 20:20
  * @Version 1.0
@@ -44,7 +44,7 @@ class Rectangle extends Shape {
 
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         System.out.println(" 绘制矩形 ");
     }
 }
@@ -55,7 +55,7 @@ class Circle extends Shape {
     }
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         System.out.println(" 绘制圆形 ");
     }
 }
@@ -67,7 +67,7 @@ class Triangle extends Shape {
     }
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         System.out.println(" 绘制三角形 ");
     }
 }
@@ -80,7 +80,7 @@ class OtherGraphic extends Shape {
 
     @Override
     public void draw() {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         System.out.println(" 绘制其它图形 ");
     }
 }

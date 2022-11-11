@@ -2,7 +2,7 @@ package com.rookie.bigdata.adapter.objectadapter;
 
 /**
  * @Classname VoltageAdapter
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/8 22:08
  * @Version 1.0

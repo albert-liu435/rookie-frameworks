@@ -4,7 +4,7 @@ import java.io.*;
 
 /**
  * @Classname DeepProtoType
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 22:54
  * @Version 1.0
@@ -29,7 +29,7 @@ public class DeepProtoType implements Serializable, Cloneable{
         DeepProtoType deepProtoType = (DeepProtoType)deep;
         deepProtoType.deepCloneableTarget  = (DeepCloneableTarget)deepCloneableTarget.clone();
 
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         return deepProtoType;
     }
 
@@ -58,7 +58,7 @@ public class DeepProtoType implements Serializable, Cloneable{
             return copyObj;
 
         } catch (Exception e) {
-            // TODO: handle exception
+            // : handle exception
             e.printStackTrace();
             return null;
         } finally {
@@ -69,7 +69,7 @@ public class DeepProtoType implements Serializable, Cloneable{
                 bis.close();
                 ois.close();
             } catch (Exception e2) {
-                // TODO: handle exception
+                // : handle exception
                 System.out.println(e2.getMessage());
             }
         }

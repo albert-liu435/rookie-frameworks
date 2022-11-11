@@ -2,7 +2,7 @@ package com.rookie.bigdata.adapter.classadapter;
 
 /**
  * @Classname Voltage220V
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/8 21:59
  * @Version 1.0

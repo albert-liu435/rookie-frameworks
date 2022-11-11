@@ -2,7 +2,7 @@ package com.rookie.bigdata.prototype.deepclone;
 
 /**
  * @Classname Client
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 22:53
  * @Version 1.0
@@ -10,7 +10,7 @@ package com.rookie.bigdata.prototype.deepclone;
 public class Client {
 
     public static void main(String[] args) throws Exception {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         DeepProtoType p = new DeepProtoType();
         p.name = "宋江";
         p.deepCloneableTarget = new DeepCloneableTarget("大牛", "小牛");

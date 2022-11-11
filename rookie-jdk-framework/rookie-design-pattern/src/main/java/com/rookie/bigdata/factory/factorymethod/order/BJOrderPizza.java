@@ -17,7 +17,7 @@ public class BJOrderPizza extends OrderPizza {
 		} else if (orderType.equals("pepper")) {
 			pizza = new BJPepperPizza();
 		}
-		// TODO Auto-generated method stub
+		//  Auto-generated method stub
 		return pizza;
 	}
 

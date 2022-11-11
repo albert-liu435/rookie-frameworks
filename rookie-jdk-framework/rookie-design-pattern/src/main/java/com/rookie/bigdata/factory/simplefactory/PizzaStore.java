@@ -2,7 +2,7 @@ package com.rookie.bigdata.factory.simplefactory;
 
 /**
  * @Classname PizzaStore
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 21:39
  * @Version 1.0
@@ -11,7 +11,7 @@ package com.rookie.bigdata.factory.simplefactory;
 public class PizzaStore {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         //new OrderPizza();
 
         //使用简单工厂模式

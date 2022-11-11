@@ -2,7 +2,7 @@ package com.rookie.bigdata.sync;
 
 /**
  * @Classname ThreadDemo1
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 10:15
  * @Version 1.0

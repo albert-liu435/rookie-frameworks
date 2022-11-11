@@ -2,7 +2,7 @@ package com.rookie.bigdata.principle.segregation;
 
 /**
  * @Classname Segregation1
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 19:34
  * @Version 1.0
@@ -10,7 +10,7 @@ package com.rookie.bigdata.principle.segregation;
 public class Segregation1 {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
 
     }
 

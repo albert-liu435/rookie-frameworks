@@ -2,7 +2,7 @@ package com.rookie.bigdata.principle.segregation.improve;
 
 /**
  * @Classname Segregation1
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 19:47
  * @Version 1.0
@@ -11,7 +11,7 @@ package com.rookie.bigdata.principle.segregation.improve;
 public class Segregation1 {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         // 使用一把
         A a = new A();
         a.depend1(new B()); // A类通过接口去依赖B类

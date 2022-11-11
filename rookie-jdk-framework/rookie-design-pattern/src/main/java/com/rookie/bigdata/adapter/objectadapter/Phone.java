@@ -2,7 +2,7 @@ package com.rookie.bigdata.adapter.objectadapter;
 
 /**
  * @Classname Phone
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/8 22:09
  * @Version 1.0

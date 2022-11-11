@@ -2,7 +2,7 @@ package com.rookie.bigdata.prototype.improve;
 
 /**
  * @Classname Client
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 22:43
  * @Version 1.0
@@ -11,7 +11,7 @@ public class Client {
 
     public static void main(String[] args) {
         System.out.println("原型模式完成对象的创建");
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         Sheep sheep = new Sheep("tom", 1, "白色");
 
         sheep.friend = new Sheep("jack", 2, "黑色");

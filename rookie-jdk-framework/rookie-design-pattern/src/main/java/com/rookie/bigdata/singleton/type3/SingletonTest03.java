@@ -2,7 +2,7 @@ package com.rookie.bigdata.singleton.type3;
 
 /**
  * @Classname SingletonTest03
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 21:17
  * @Version 1.0

@@ -4,7 +4,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @Classname LTicket
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 9:53
  * @Version 1.0

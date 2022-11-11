@@ -2,7 +2,7 @@ package com.rookie.bigdata.singleton.type6;
 
 /**
  * @Classname Singleton
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 21:20
  * @Version 1.0

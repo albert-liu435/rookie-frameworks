@@ -11,7 +11,7 @@ public class PizzaStore {
 			//创建伦敦口味的各种Pizza
 			new LDOrderPizza();
 		}
-		// TODO Auto-generated method stub
+		//  Auto-generated method stub
 	}
 
 }

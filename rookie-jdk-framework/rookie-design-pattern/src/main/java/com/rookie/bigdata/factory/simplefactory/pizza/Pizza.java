@@ -2,7 +2,7 @@ package com.rookie.bigdata.factory.simplefactory.pizza;
 
 /**
  * @Classname Pizza
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 21:20
  * @Version 1.0

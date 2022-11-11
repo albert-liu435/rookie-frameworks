@@ -2,7 +2,7 @@ package com.rookie.bigdata.prototype.improve;
 
 /**
  * @Classname Sheep
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 22:42
  * @Version 1.0
@@ -52,10 +52,10 @@ public class Sheep implements Cloneable {
         try {
             sheep = (Sheep)super.clone();
         } catch (Exception e) {
-            // TODO: handle exception
+            // : handle exception
             System.out.println(e.getMessage());
         }
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         return sheep;
     }
 

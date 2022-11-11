@@ -2,7 +2,7 @@ package com.rookie.bigdata.lock;
 
 /**
  * @Classname ThreadDemo2
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 10:45
  * @Version 1.0

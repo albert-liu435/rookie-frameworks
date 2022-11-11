@@ -2,14 +2,14 @@ package com.rookie.bigdata.principle.singleresponsibility;
 
 /**
  * @Classname SingleResponsibility2
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 16:42
  * @Version 1.0
  */
 public class SingleResponsibility2 {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         RoadVehicle roadVehicle = new RoadVehicle();
         roadVehicle.run("摩托车");
         roadVehicle.run("汽车");

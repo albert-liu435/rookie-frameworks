@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * @Classname ShareResource
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/6 14:21
  * @Version 1.0

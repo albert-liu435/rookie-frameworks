@@ -2,7 +2,7 @@ package com.rookie.bigdata.builder;
 
 /**
  * @Classname Builder
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/8 21:33
  * @Version 1.0
@@ -10,7 +10,7 @@ package com.rookie.bigdata.builder;
 public class Builder {
 
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         StringBuilder stringBuilder = new StringBuilder("hello,world");
         System.out.println(stringBuilder);
     }

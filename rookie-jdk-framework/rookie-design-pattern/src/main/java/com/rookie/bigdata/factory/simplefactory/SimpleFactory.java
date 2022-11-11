@@ -7,7 +7,7 @@ import com.rookie.bigdata.factory.simplefactory.pizza.Pizza;
 
 /**
  * @Classname SimpleFactory
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 21:47
  * @Version 1.0

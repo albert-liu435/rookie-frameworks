@@ -2,14 +2,14 @@ package com.rookie.bigdata.prototype;
 
 /**
  * @Classname Client
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/7 22:35
  * @Version 1.0
  */
 public class Client {
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
+        //  Auto-generated method stub
         //传统的方法
         Sheep sheep = new Sheep("tom", 1, "白色");
 
