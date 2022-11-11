@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 /**
  * @Classname User
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/10 22:49
  * @Version 1.0

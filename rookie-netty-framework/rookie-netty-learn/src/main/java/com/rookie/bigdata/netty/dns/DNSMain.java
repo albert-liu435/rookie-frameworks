@@ -11,7 +11,7 @@ import io.netty.handler.codec.dns.DatagramDnsResponseEncoder;
 
 /**
  * @Classname DNSMain
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/4 17:50
  * @Version 1.0

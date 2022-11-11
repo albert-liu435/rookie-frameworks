@@ -22,7 +22,9 @@
         <!-- 自定义属性-->
         <spring.version>5.3.17</spring.version>
         <netty.all.version>4.1.84.Final</netty.all.version>
-  <!--      <mybatis.version>3.5.9</mybatis.version>-->
+        <mybatis.version>3.5.11</mybatis.version>
+        <mysql.version>8.0.29</mysql.version>
+        <cglib.version>3.3.0</cglib.version>
 
     </properties>
 
@@ -46,14 +48,22 @@
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
-                <version>3.5.11</version>
+                <version>${mybatis.version}</version>
             </dependency>
             <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
-                <version>8.0.29</version>
+                <version>${mysql.version}</version>
             </dependency>
+
+            <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+            <dependency>
+                <groupId>cglib</groupId>
+                <artifactId>cglib</artifactId>
+                <version>${cglib.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>

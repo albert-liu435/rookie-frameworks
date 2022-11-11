@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 /**
  * @Classname ScatteringAndGatheringTest
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/10/27 22:48
  * @Version 1.0

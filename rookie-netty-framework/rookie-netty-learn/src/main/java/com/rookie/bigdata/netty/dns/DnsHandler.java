@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * @Classname DnsHandler
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2022/11/4 17:50
  * @Version 1.0
@@ -34,7 +34,7 @@ public class DnsHandler extends SimpleChannelInboundHandler<DatagramDnsQuery> {
             if (ipMap.containsKey(dnsQuestion.name())) {
                 buf = Unpooled.wrappedBuffer(ipMap.get(dnsQuestion.name()));
             } else {
-                // TODO  对于没有的域名采用迭代方式
+                //   对于没有的域名采用迭代方式
                 // buf = Unpooled.wrappedBuffer(new byte[] { 127, 0, 0, 1});
             }
             // TTL设置为10s, 如果短时间内多次请求，客户端会使用本地缓存
