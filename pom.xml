@@ -64,6 +64,19 @@
                 <version>${cglib.version}</version>
             </dependency>
 
+            <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper</artifactId>
+                <version>5.3.0</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/com.github.jsqlparser/jsqlparser -->
+            <dependency>
+                <groupId>com.github.jsqlparser</groupId>
+                <artifactId>jsqlparser</artifactId>
+                <version>4.5</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 </project>
