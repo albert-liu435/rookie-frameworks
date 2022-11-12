@@ -42,13 +42,16 @@
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.github.pagehelper/pagehelper -->
     <dependency>
-      <groupId>org.mybatis</groupId>
-      <artifactId>mybatis</artifactId>
-      <version>3.5.11</version>
-      <scope>compile</scope>
+      <groupId>com.github.pagehelper</groupId>
+      <artifactId>pagehelper</artifactId>
     </dependency>
-
+    <!-- https://mvnrepository.com/artifact/com.github.jsqlparser/jsqlparser -->
+    <dependency>
+      <groupId>com.github.jsqlparser</groupId>
+      <artifactId>jsqlparser</artifactId>
+    </dependency>
   </dependencies>
 
   <build>

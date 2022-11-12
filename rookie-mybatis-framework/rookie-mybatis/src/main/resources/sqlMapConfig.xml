@@ -10,6 +10,16 @@
         <typeAlias type="com.rookie.bigdata.mybatis.domain.User" alias="user"></typeAlias>
     </typeAliases>
 
+    <!--注册类型处理器-->
+    <typeHandlers>
+        <typeHandler handler="com.rookie.bigdata.mybatis.handler.DateTypeHandler"></typeHandler>
+    </typeHandlers>
+
+    <!--配置分页助手插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+        </plugin>
+    </plugins>
     <!--数据源环境 在运行的时候 会运行id与default相匹配的环境-->
     <environments default="developement">
         <environment id="developement">
@@ -22,7 +32,7 @@
             </dataSource>
         </environment>
     </environments>
-    
+
 
     <!--加载映射文件-->
     <mappers>

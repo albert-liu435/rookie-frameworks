@@ -18,5 +18,23 @@ public interface UserMapper {
 
     public User findById(int id);
 
+
+    public List<User> findByCondition(User user);
+
+    public List<User> findByIds(List<Integer> ids);
+
+
+    public void save4(User user);
+
+    public User findById4(int id);
+
+    public List<User> findAll4();
+
+
+    public List<User> findAll5();
+
+    public List<User> findUserAndRoleAll5();
+
+
 }
 
