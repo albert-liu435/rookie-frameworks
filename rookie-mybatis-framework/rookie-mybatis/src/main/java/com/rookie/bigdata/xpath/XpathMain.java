@@ -2,6 +2,7 @@ package com.rookie.bigdata.xpath;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.nio.file.Files;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;

@@ -1,10 +1,6 @@
 package com.rookie.bigdata.day01.java8;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.TreeSet;
+import java.util.*;
 
 
 import org.junit.Test;
@@ -62,6 +58,8 @@ public class TestLambda1 {
 	
 	@Test
 	public void test3(){
+
+
 		List<Employee> list = filterEmployeeAge(emps);
 		
 		for (Employee employee : list) {
