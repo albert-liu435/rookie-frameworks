@@ -141,7 +141,7 @@ public class Demo02 {
         System.out.println("相差的天数:" + duration.toDays());
         System.out.println("相差的小时数:" + duration.toHours());
         System.out.println("相差的分钟数:" + duration.toMinutes());
-        System.out.println("相差的秒数:" + duration.toSeconds());
+     //   System.out.println("相差的秒数:" + duration.toSeconds());
 
         // Period计算日期的距离
         LocalDate nowDate = LocalDate.now();
