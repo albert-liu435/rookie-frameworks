@@ -12,6 +12,7 @@
         <module>rookie-netty-framework</module>
         <module>rookie-jdk-framework</module>
         <module>rookie-mybatis-framework</module>
+        <module>rookie-log-framework</module>
     </modules>
 
     <properties>
