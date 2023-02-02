@@ -3,24 +3,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <modules>
-    <module>rookie-jul-log</module>
-    <module>rookie-log4j-log</module>
-    <module>rookie-log4j-slf4j</module>
-  </modules>
+
 
   <parent>
-    <artifactId>rookie-frameworks</artifactId>
+    <artifactId>rookie-log-framework</artifactId>
     <groupId>com.rookie.bigdata</groupId>
     <version>1.0.release</version>
   </parent>
 
   <groupId>com.rookie.bigdata</groupId>
-  <artifactId>rookie-log-framework</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>rookie-log4j-slf4j</artifactId>
   <version>1.0.release</version>
 
-  <name>rookie-netty-framework</name>
+  <name>rookie-log4j-slf4j</name>
   <!--  change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -32,14 +27,29 @@
   </properties>
 
   <dependencies>
-<!--    <dependency>-->
-<!--      <groupId>org.springframework</groupId>-->
-<!--      <artifactId>spring-context</artifactId>-->
-<!--    </dependency>-->
     <dependency>
-      <groupId>io.netty</groupId>
-      <artifactId>netty-all</artifactId>
-     <!-- <version>${netty.all.version}</version>-->
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+<!--      <scope>test</scope>-->
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-reload4j</artifactId>
+      <version>2.0.6</version>
+    </dependency>
+    <!-- slf4j 日志门面 -->
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <!--            <version>1.7.26</version>-->
+      <version>2.0.6</version>
     </dependency>
   </dependencies>
 
