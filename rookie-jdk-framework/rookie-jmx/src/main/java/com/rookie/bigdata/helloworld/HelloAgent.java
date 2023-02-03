@@ -1,8 +1,8 @@
 package com.rookie.bigdata.helloworld;
 
 /**
- * @Classname HelloAgent2
- * @Description
+ * @Classname HelloAgent
+ * @Description https://blog.csdn.net/youyou1543724847/article/details/82933076
  * @Author rookie
  * @Date 2023/2/3 9:40
  * @Version 1.0
@@ -17,7 +17,7 @@ import javax.management.remote.JMXConnectorServer;
 import javax.management.remote.JMXConnectorServerFactory;
 import javax.management.remote.JMXServiceURL;
 
-public class HelloAgent2 {
+public class HelloAgent {
     public static void main(String[] args) throws Exception {
         //create mbean server
         MBeanServer server = ManagementFactory.getPlatformMBeanServer();

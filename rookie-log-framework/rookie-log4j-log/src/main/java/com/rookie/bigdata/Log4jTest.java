@@ -7,7 +7,7 @@ import org.junit.Test;
 
 /**
  * @Classname Log4jTest
- * @Description TODO
+ * @Description
  * @Author rookie
  * @Date 2023/1/31 17:30
  * @Version 1.0

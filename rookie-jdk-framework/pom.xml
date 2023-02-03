@@ -28,6 +28,7 @@
         <module>rookie-design-pattern</module>
         <module>rookie-jdk9</module>
         <module>rookie-jdk10</module>
+        <module>rookie-jmx</module>
     </modules>
 
     <!--  <properties>-->

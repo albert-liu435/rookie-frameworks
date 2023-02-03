@@ -4,7 +4,6 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-
   <parent>
     <artifactId>rookie-jdk-framework</artifactId>
     <groupId>com.rookie.bigdata</groupId>
@@ -12,10 +11,10 @@
   </parent>
 
   <groupId>com.rookie.bigdata</groupId>
-  <artifactId>rookie-jdk9</artifactId>
+  <artifactId>rookie-jmx</artifactId>
   <version>1.0.release</version>
 
-  <name>rookie-jdk9</name>
+  <name>rookie-jmx</name>
   <!--  change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -33,6 +32,24 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/cglib/cglib -->
+    <dependency>
+      <groupId>cglib</groupId>
+      <artifactId>cglib</artifactId>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.opendaylight.cardinal/jdmk -->
+    <dependency>
+      <groupId>org.opendaylight.cardinal</groupId>
+      <artifactId>jdmk</artifactId>
+      <version>0.3.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.opendaylight.cardinal/jdmk -->
+    <dependency>
+      <groupId>org.opendaylight.cardinal</groupId>
+      <artifactId>jdmk</artifactId>
+      <version>0.3.3</version>
+    </dependency>
+
   </dependencies>
 
   <build>
