@@ -29,6 +29,7 @@
         <module>rookie-jdk9</module>
         <module>rookie-jdk10</module>
         <module>rookie-jmx</module>
+        <module>rookie-other</module>
     </modules>
 
     <!--  <properties>-->
