@@ -28,6 +28,9 @@ public class CompletableFutureTest {
 
     @Test
     public void testCountDownLatch() throws InterruptedException, ExecutionException {
+
+
+
         ExecutorService executorService = Executors.newFixedThreadPool(5);
         CountDownLatch downLatch = new CountDownLatch(2);
         long startTime = System.currentTimeMillis();
