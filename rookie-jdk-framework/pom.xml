@@ -30,6 +30,7 @@
         <module>rookie-jdk10</module>
         <module>rookie-jmx</module>
         <module>rookie-other</module>
+        <module>rookie-sdk</module>
     </modules>
 
     <!--  <properties>-->
